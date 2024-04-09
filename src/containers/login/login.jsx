@@ -38,7 +38,7 @@ const LoginPage = () => {
           <div>
             <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">Email address</label>
             <div className="mt-2">
-              <input id="email" name="email" type="email" autoComplete="off" required className="block w-full rounded-md border-0 px-2 py-1.5 outline-none text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pink-600 sm:text-sm sm:leading-6" />
+              <input id="email" name="email" type="email" autoComplete="off" required className="block w-full rounded-md border-0 px-2 py-1.5 outline-none text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-600 sm:text-sm sm:leading-6" />
             </div>
           </div>
 
@@ -46,22 +46,22 @@ const LoginPage = () => {
             <div className="flex items-center justify-between">
               <label htmlFor="password" className="block text-sm font-medium leading-6 text-gray-900">Password</label>
               <div className="text-sm">
-                <span className="font-semibold text-pink-600 hover:text-pink-500 cursor-pointer">Forgot password?</span>
+                <span className="font-semibold text-violet-600 hover:text-violet-500 cursor-pointer">Forgot password?</span>
               </div>
             </div>
             <div className="mt-2">
-              <input id="password" name="password" type="password" autoComplete="off" required className="block w-full rounded-md border-0 px-2 py-1.5 outline-none text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pink-600 sm:text-sm sm:leading-6" />
+              <input id="password" name="password" type="password" autoComplete="off" required className="block w-full rounded-md border-0 px-2 py-1.5 outline-none text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-600 sm:text-sm sm:leading-6" />
             </div>
           </div>
 
           <div>
-            <button type="submit" className="flex w-full justify-center rounded-md bg-pink-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600">Sign in</button>
+            <button type="submit" className="flex w-full justify-center rounded-md bg-violet-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-violet-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600">Sign in</button>
           </div>
         </form>
 
         <p className="mt-10 text-center text-sm text-gray-500">
           Not a member?
-          <span className="font-semibold leading-6 text-pink-600 hover:text-pink-500 cursor-pointer" onClick={gotoSignup}> Create an account</span>
+          <span className="font-semibold leading-6 text-violet-600 hover:text-violet-500 cursor-pointer" onClick={gotoSignup}> Create an account</span>
         </p>
       </div>
     </div>
