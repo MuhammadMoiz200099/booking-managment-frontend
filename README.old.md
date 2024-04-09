@@ -1,1 +1,0 @@
-# booking-managment-frontend
