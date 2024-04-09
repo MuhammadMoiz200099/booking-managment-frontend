@@ -22,7 +22,7 @@ function App() {
     } else {
       setIsLoading(false);
       const urlPrefix = location.pathname.split('/')[1];
-      if (urlPrefix === 'food') {
+      if (urlPrefix === 'booking') {
         navigate('/login');
       }
     }
@@ -42,15 +42,15 @@ function App() {
     if (userStatus === 'succeeded') {
       if (!user) {
         const urlPrefix = location.pathname.split('/')[1];
-        if (urlPrefix === 'food') {
+        if (urlPrefix === 'booking') {
           navigate('/login');
         } else {
           navigate(location.pathname);
         }
       } else {
         const urlPrefix = location.pathname.split('/')[1];
-        if (urlPrefix !== 'food') {
-          navigate('/food/home');
+        if (urlPrefix !== 'booking') {
+          navigate('/booking/home');
         } else {
           if (location.search) {
             navigate(`${location.pathname}${location.search}`);
